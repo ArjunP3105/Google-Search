@@ -1,0 +1,100 @@
+.list {
+  list-style-type: none;
+  padding: 20px;
+}
+
+h1 {
+  position: relative;
+  left: 20px;
+  top: 30px;
+  font-size: 25px;
+  color: #EA4335;
+}
+
+h2 {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  font-size: 15px;
+}
+
+#ulist {
+  padding: 12px;
+  margin: 15px 15px;
+  width: 350px;
+  position: relative;
+  left: 20px;
+}
+
+input[type=submit] {
+  border: solid 1px;
+  padding: 12px;
+  border-radius: 7px;
+  width: 150px;
+  position: relative;
+  left: 20px;
+  transition: transform 0.6s;
+  bottom: 30px;
+  color: white;
+  background-color: rgb(42, 42, 226);
+}
+
+input[type=submit]:hover {
+  transform: translateY(-10px);
+  background-color: darkcyan;
+  color: aliceblue;
+}
+
+div {
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  transition: transform 0.8s;
+  font-family: sans-serif;
+  left: 30px;
+}
+
+div:hover {
+  transform: translateY(-10px);
+}
+
+.clist1 {
+  padding: 12px;
+  margin: 15px 15px;
+  width: 350px;
+  position: relative;
+  left: 80px;
+}
+
+.clist2 {
+  padding: 12px;
+  margin: 15px 15px;
+  width: 350px;
+  position: relative;
+  left: 62px;
+}
+
+.clist3 {
+  padding: 12px;
+  margin: 15px 15px;
+  width: 350px;
+  position: relative;
+  left: 50px;
+}
+
+body {
+  display: flexbox;
+  flex-wrap: wrap;
+}
+
+#hr1 {
+  margin-bottom: 10px;
+}
+
+#hr2 {
+  margin-top: 40px;
+}
+
+a {
+  color: black;
+}/*# sourceMappingURL=advstyle.css.map */
